@@ -1,5 +1,5 @@
 {
-  "name": "demo_npm",
+  "name": "demo_npm_jayant",
   "version": "1.0.0",
   "description": "first npm package to understand npm auth token flow",
   "main": "main.js",
@@ -14,5 +14,8 @@
     "demo"
   ],
   "author": "Jayant Katia",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "hello": "^0.3.2"
+  }
 }
