@@ -1,6 +1,6 @@
 {
   "name": "demo_npm_jayant",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "first npm package to understand npm auth token flow",
   "main": "main.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/jayantkatia/demo_npm"
+    "url": "git://github.com/jayantkatia/demo_npm.git"
   },
   "keywords": [
     "demo"
