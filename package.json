@@ -1,0 +1,18 @@
+{
+  "name": "demo_npm",
+  "version": "1.0.0",
+  "description": "first npm package to understand npm auth token flow",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/jayantkatia/demo_npm"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "Jayant Katia",
+  "license": "ISC"
+}
