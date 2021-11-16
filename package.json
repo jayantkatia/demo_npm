@@ -4,7 +4,9 @@
   "description": "first npm package to understand npm auth token flow",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "./${env.WORKSPACE}/node_modules/.bin/pm2 install typescript"
+
   },
   "repository": {
     "type": "git",
@@ -16,9 +18,12 @@
   "author": "Jayant Katia",
   "license": "ISC",
   "dependencies": {
-    "hello": "^0.3.2"
+    "hello": "^0.3.2",
+    "pm2": "^5.1.2"
   },
   "release": {
-    "branches": ["main"]
+    "branches": [
+      "main"
+    ]
   }
 }
